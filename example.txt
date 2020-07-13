@@ -1,0 +1,26 @@
+INFO:root:Starting httpd...
+
+INFO:root:POST request,
+Path: /
+Headers:
+Host: 127.0.0.1:8000
+Accept: */*
+Accept-Encoding: deflate, gzip
+Content-Type: application/json
+User-Agent: Whack_A_Mole/++UE4+Release-4.25-CL-13144385 Windows/10.0.18363.1.768.64bit
+Content-Length: 105
+
+
+
+Body:
+{
+	"Results": [
+		"Whack-A-Mole Hugh Mungus",
+		"0:60 18",
+		"0:60 12",
+		"138.140747 31"
+	]
+}
+
+INFO:root:Stopping httpd...
+
