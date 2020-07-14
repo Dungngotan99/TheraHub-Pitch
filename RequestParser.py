@@ -17,7 +17,7 @@ def main(argv):
 	for x in range(len(content)):
 		content[x] = ''.join(i for i in content[x] if not i in bad_chars) 
 
-	BodyStart = 14
+	BodyStart = 11
 			
 	HeaderLine = content[BodyStart + 5]
 	LevelOne = content[BodyStart + 7]
