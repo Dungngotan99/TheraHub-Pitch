@@ -1,6 +1,3 @@
-INFO:root:Starting httpd...
-
-INFO:root:POST request,
 Path: /
 Headers:
 Host: 127.0.0.1:8000
@@ -13,14 +10,18 @@ Content-Length: 105
 
 
 Body:
-{
-	"Results": [
-		"Whack-A-Mole Hugh Mungus",
-		"0:60 18",
-		"0:60 12",
-		"138.140747 31"
-	]
+{
+
+	"Results": [
+
+		"Whack-A-Mole Hugh Mungus",
+
+		"0:60 18",
+
+		"0:60 12",
+
+		"138.140747 31"
+
+	]
+
 }
-
-INFO:root:Stopping httpd...
-
