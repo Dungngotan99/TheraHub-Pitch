@@ -14,13 +14,13 @@ Body:
 
 	"Results": [
 
-		"Whack-A-Mole Hugh Mungus",
+		"Whack-A-Mole",
 
 		"0:60 18",
 
 		"0:60 12",
 
-		"138.140747 31"
+		"138.140747 31 10345"
 
 	]
 
