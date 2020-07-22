@@ -23,29 +23,28 @@ def main(argv):
 	LevelOne = content[BodyStart + 7]
 	LevelTwo = content[BodyStart + 9]
 	EndLine = content[BodyStart + 11]
-
-	game_and_user = HeaderLine.split(' ', 1 )
+	
 	Lv1_stats = LevelOne.split(' ', 1 )
 	Lv2_stats = LevelTwo.split(' ', 1 )
-	final_timeAndScore = EndLine.split(' ', 1 )
+	final_time_Score_ID = EndLine.split(' ', 1 )
 
-	gameType = game_and_user[0]
-	user = game_and_user[1]
+	gameType = HeaderLine
 	Lv1_time = str(Lv1_stats[0])
 	Lv1_score = str(Lv1_stats[1])
 	Lv2_time = str(Lv2_stats[0])
 	Lv2_score = str(Lv2_stats[1])
 	finalTime = str(final_timeAndScore[0])
 	finalScore = str(final_timeAndScore[1])
+	user = finalScore[1:]
 
 	print(gameType) 
-	print(user)
 	print(Lv1_time) 
 	print(Lv1_score) 
 	print(Lv2_time) 
 	print(Lv2_score) 
 	print(finalTime) 
 	print(finalScore)
+	print(user)
 
 	file.close()
 
